@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    min-height: 100vh;
+    background-color: #f5d04e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.container {
+    min-height: 32em;
+    width: 400px;
+    background-color: #ffffff;
+    display: flex;
+    top: 100px;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: black;
+    border-left: solid 1px;
+    border-right: 4px solid;
+    border-bottom: 4px solid;
+    border-top: 1px solid;
+}
+.container .image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 14.5em;
+    margin-left: 0em;
+}
+.container .para {
+    background-color: #fbd452;
+    padding: 5px;
+    position: absolute;
+    margin-top: 3em;
+    margin-right: 17em;
+    border-radius: 0.5em;
+} 
+.container .date {
+    position: absolute;
+    margin-top: 8em;
+    color: rgba(0, 0, 0, 0.9);
+    margin-right:11.5em;
+}
+.container .heading {
+    position: absolute;
+    margin-top: 8.5em;
+    font-size: 1.5em;
+    margin-right:3em;   
+}
+.container .para1 {
+    position: absolute;
+    margin-top:20em;
+    margin-right: 2.0em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.container .profile {
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    margin-bottom: -28em;
+    left: 32em;
+}
+.container .text {
+    font-weight: bolder;
+    font-size: 15px;
+    position: absolute;
+    margin-bottom:-30em;
+    left: 37em;
+    
+}
